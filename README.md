@@ -47,18 +47,4 @@ The below plot shows the relationship between **actual** and **predicted** house
 
 ---
 
-## 💡 Sample Prediction
-```python
-sample = pd.DataFrame({
-    'MedInc': [8.0],
-    'HouseAge': [25],
-    'AveRooms': [6.5],
-    'AveBedrms': [1.0],
-    'Population': [800],
-    'AveOccup': [3.0],
-    'Latitude': [34.2],
-    'Longitude': [-118.4]
-})
 
-pred_price = model.predict(scaler.transform(sample))
-print(pred_price)
