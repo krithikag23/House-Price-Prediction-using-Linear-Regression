@@ -7,6 +7,7 @@ It uses a **Linear Regression model** to estimate housing values based on featur
 ---
 
 ## 🧠 Dataset Information
+
 **Dataset:** California Housing Dataset  
 **Samples:** 20,640  
 **Features:**
